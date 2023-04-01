@@ -1,0 +1,40 @@
+1. Importing the packages
+2. Exploring the dataset - crop recommendation data
+3. Data processing and cleaning
+	- using Pandas Dataframe
+	- Eliminating all Duplicated Rows - Balanced Data
+4. Visualization the data using seaborn and matplotlib
+5. label Encoding
+	- Processing the Data str to int
+6. Feature Selection Algorithm
+	- SMOTE
+	- ROSE
+	- RFE
+	- MRFE
+	- BORUTA
+	- MEMOTE
+6. Splitting the data to train and test
+7. Building the model with and without feature selection
+	
+	- KNN
+	- Naive Bayes
+	- Bagging Classifier
+	- Random Forest
+	- Decision Tree
+	- SVM
+	- Gradient Boosting
+	- Voting Classifier ( RF + DT + SVC)
+   
+8. Training the model
+9. Building the model with Voting Classifier since it gives better accuracy comparing with Other Models 
+10. Flask Framework with Sqlite for signup and signin
+11. Importing the packages
+12. User gives input as Feature Values 
+13. The given input is preprocessed for prediction
+14. Trained model is used for prediction
+15. Final outcome is displayed through frontend
+Extension 
+—----------
+In the base paper, the author mentioned Machine Learning models (NB,Bagging,RF,DT,SVM),in which RF got 87%, 
+As an extension we have applied Voting Classifier and Gradient Boosting, in which Voting Classifier got 99.7% 
+So with Voting Classifier we build the model is used for predicting the results
